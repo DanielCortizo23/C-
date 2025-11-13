@@ -5,7 +5,7 @@ Un entrenador quiere llevar un registro de su equipo. Quiere consultar info de s
 Sistema que modele 3 tipos de objetos
 1 Jugador
 2 Entrenador
-3 Prtido
+3 Partido
 
 # Acciones del usuario por ahorita
 Mostrar info de jugadores
