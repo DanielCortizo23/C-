@@ -32,3 +32,5 @@ Simular entrenamientos o mejoras
 # Avance 2
 Se agrego un diagrama uml con nuevas clases que se agregaran al codigo
 para el proximo avance. 
+
+Agregue 3 clases en el uml que creare en el codigo para el siguiente avance
