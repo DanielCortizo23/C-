@@ -1,5 +1,7 @@
 # Gestor de Equipo de Voleibol
-Un entrenador quiere llevar un registro de su equipo. Quiere consultar info de sus jugadores, del entrenador y de los partidos
+Esto es un programa para registrar jugadores, con sus atributos como su posicio, nombre, y puntos anotados
+tambien te pide el entrenador y los partidos que se jugaron. Todo para crear un sistema de registro de todo
+lo mencionado
 
 # Objetivo
 Sistema que modele 3 tipos de objetos
