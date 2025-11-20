@@ -10,9 +10,10 @@ y su relacion entre ellas
 1: Jugador,
 2: Entrenador,
 3: Partido,
-4: Equipo (estas las agrego despues),
-5: Amistoso (estas las agrego despues),
-6: Competitivo (estas las agrego despues),
+
+4: Equipo: esta lo que quiero que haga es que le ponga un nombre a el equipo de los jugadores creados (estas las agrego despues),
+5: Amistoso: esta va a determinar el motivo del amistoso, ejemplo para entrenamiento o partido de caridad (estas las agrego despues),
+6: Competitivo: dice donde se va a jugar el torneo y el premio que este va a tener  (estas las agrego despues),
 
 # Acciones del usuario por ahorita
 La persona que use este programa va a poder obtener y cambiar la informacion de
