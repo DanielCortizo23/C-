@@ -7,12 +7,17 @@ lo mencionado
 Este es un programa que academias o escuelas de voleibol podrian utilizar para organizarse 
 de mejor manera en el deporte. Para esto estamos tomando en cuenta las siguientes clases
 y su relacion entre ellas
+
 1: Jugador,
+
 2: Entrenador,
+
 3: Partido,
 
 4: Equipo: esta lo que quiero que haga es que le ponga un nombre a el equipo de los jugadores creados (estas las agrego despues),
+
 5: Amistoso: esta va a determinar el motivo del amistoso, ejemplo para entrenamiento o partido de caridad (estas las agrego despues),
+
 6: Competitivo: dice donde se va a jugar el torneo y el premio que este va a tener  (estas las agrego despues),
 
 # Acciones del usuario por ahorita
