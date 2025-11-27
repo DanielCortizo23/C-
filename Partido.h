@@ -1,33 +1,32 @@
-#include <string>
+#ifndef PARTIDO_H
+#define PARTIDO_H
+
 #include <iostream>
+#include "Equipo.h"
 using namespace std;
 
 class Partido {
-private:
-    string rival;
-    int puntosFavor;
-    int puntosContra;
+protected:
+    Equipo equipoA;
+    Equipo equipoB;
+    int puntosA;
+    int puntosB;
 
 public:
-    Partido(): rival(""), puntosFavor(0), puntosContra(0) {}
-    Partido(string r, int f, int c): rival(r), puntosFavor(f), puntosContra(c) {}
-    string get_rival();
-    int get_puntosFavor();
-    int get_puntosContra();
+    Partido() : puntosA(0), puntosB(0) {}
 
-    void set_rival(string);
-    void set_puntosFavor(int);
-    void set_puntosContra(int);
-    void mostrarResultado();
+    Partido(Equipo a, Equipo b) : equipoA(a), equipoB(b), puntosA(0), puntosB(0) {}
+
+    void setMarcador(int a, int b) {
+        puntosA = a;
+        puntosB = b;
+    }
+
+    void mostrarMarcador() {
+        cout << "--- Marcador Final ---\n";
+        cout << equipoA.get_nombre() << ": " << puntosA << endl;
+        cout << equipoB.get_nombre() << ": " << puntosB << endl;
+    }
 };
-string Partido::get_rival() { return rival; }
-int Partido::get_puntosFavor() { return puntosFavor; }
-int Partido::get_puntosContra() { return puntosContra; }
 
-void Partido::set_rival(string r) { rival = r; }
-void Partido::set_puntosFavor(int f) { puntosFavor = f; }
-void Partido::set_puntosContra(int c) { puntosContra = c; }
-void Partido::mostrarResultado() {
-    cout << "Partido contra " << rival << ": " 
-         << puntosFavor << " - " << puntosContra << endl;
-}
+#endif
