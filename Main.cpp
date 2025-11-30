@@ -72,44 +72,51 @@ int main() {
         equipo2.agregarJugador(Jugador(n, p, num));
     }
 
-    cout << "\n--- Crear Partido ---\n1. Amistoso\n2. Competitivo\nOpcion: ";
+ cout << "\n--- Crear Partido ---\n1. Amistoso\n2. Competitivo\nOpcion: ";
     int op;
     cin >> op;
-
-    Partido* partido = nullptr;
 
     if (op == 1) {
         string motivo;
         cout << "Motivo del partido: ";
         cin >> motivo;
 
-        partido = new Amistoso(equipo1, equipo2, motivo);
-        ((Amistoso*)partido)->mostrarInfo();
+        Amistoso partido(equipo1, equipo2, motivo);
+
+        partido.mostrarInfo();
+
+        int a, b;
+        cout << "\nPuntos finales del equipo 1: ";
+        cin >> a;
+        cout << "Puntos finales del equipo 2: ";
+        cin >> b;
+
+        partido.setMarcador(a, b);
+        partido.mostrarMarcador();
 
     } else {
         string sede;
         int premio;
+
         cout << "Sede: ";
         cin >> sede;
         cout << "Premio $: ";
         cin >> premio;
 
-        partido = new Competitivo(equipo1, equipo2, sede, premio);
-        ((Competitivo*)partido)->mostrarInfo();
+        Competitivo partido(equipo1, equipo2, sede, premio);
+
+        partido.mostrarInfo();
+
+        int a, b;
+        cout << "\nPuntos finales del equipo 1: ";
+        cin >> a;
+        cout << "Puntos finales del equipo 2: ";
+        cin >> b;
+
+        partido.setMarcador(a, b);
+        partido.mostrarMarcador();
     }
 
-
-    int a, b;
-    cout << "\nPuntos finales del equipo 1: ";
-    cin >> a;
-    cout << "Puntos finales del equipo 2: ";
-    cin >> b;
-
-    partido->setMarcador(a, b);
-
-    cout << endl;
-    partido->mostrarMarcador();
-
-    delete partido;
     return 0;
 }
+
