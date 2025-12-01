@@ -1,7 +1,9 @@
+// Proyecto de equipo de voleibol
 #include <iostream>
 #include <string>
 using namespace std;
 
+// Aqui agregue las clases 
 #include "Jugador.h"
 #include "Entrenador.h"
 #include "Equipo.h"
@@ -9,6 +11,7 @@ using namespace std;
 #include "Amistoso.h"
 #include "Competitivo.h"
 
+// Inicia el codigo 
 int main() {
     string nombre_equipo1, nombre_equipo2;
 
@@ -115,8 +118,10 @@ int main() {
 
         partido.setMarcador(a, b);
         partido.mostrarMarcador();
-    }
+}
 
+// Aqui termina el codigo    
     return 0;
 }
+
 
