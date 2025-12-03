@@ -20,15 +20,16 @@ y su relacion entre ellas
 
 6: Competitivo: dice donde se va a jugar el torneo y el premio que este va a tener
 
-# Acciones del usuario por ahorita
-La persona que use este programa va a poder obtener y cambiar la informacion de
-objetos como el equipo, jugadores o los partidos. Algunas de las acciones que 
-podria llevar a cabo son: 
+# Acciones del usuario
+El usuario va a poder correr el programa, va a poder meter todos los datos por ejemplo:
+va a poder meter nombre de equipo, nombre de entrenador, años de experiencia de el entrenador,
+numero de integrantes del equipo, nombre de cada jugador, posicion de cada jugador, numero del jugador
+y despues va a poder agregar el equipo 2, que es contra el que se enfrento, va a poder meter todo esto y ya despues
+el usuario agregara un tipo de partido, amistoso o competitivo, dependiendo del partido le saldran opciones diferentes, en el
+de amistoso va a poder escribir el motivo del partido y despues cual fue el marcador del partido y en el competitivo va
+a poder meter la sede (donde se jugo el partido), premio del torneo/partido y como en el amistoso, meter el marcador
+del partido.
 
-Mostrar info de jugadores, 
-Mostrar info del entrenador, 
-Registar partidos, con puntos de los equipos, 
-Simular entrenamientos o mejoras.
 
 # Instrucciones:
 El programa corre en terminal, esta echo con c++
