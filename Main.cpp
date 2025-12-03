@@ -49,7 +49,7 @@ int main() {
     cout << "Nombre del entrenador del equipo 1: ";
     cin >> nom_entrenador;
     
-    cout << "Experiencia (anios): ";
+    cout << "Experiencia (years): ";
     cin >> exp1;
 
     // Asignación de entrenador al equipo 1
@@ -88,7 +88,7 @@ int main() {
     cout << "Nombre del entrenador del equipo 2: ";
     cin >> nom_entrenador2;
     
-    cout << "Experiencia (anios): ";
+    cout << "Experiencia (years): ";
     cin >> exp2;
 
     // Asignación de entrenador al equipo 2
@@ -174,6 +174,7 @@ int main() {
 // Aqui termina el codigo    
     return 0;
 }
+
 
 
 
