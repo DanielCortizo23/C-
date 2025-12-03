@@ -29,8 +29,22 @@ Mostrar info del entrenador
 Registar partidos, con puntos de los equipos
 Simular entrenamientos o mejoras 
 
-# Avance 2
-Se agrego un diagrama uml con nuevas clases que se agregaran al codigo
-para el proximo avance. 
+# Instrucciones:
+El programa corre en terminal, esta echo con c++
+1- Descargar archivos
+2- Abrir terminal
+3- Moverse al directorio de la carpeta con cd en donde estan los archivos
+4- Usar g++ Main.cpp -o main y despues .\/main.exe
+5- Cerrar programa
 
-Agregue 3 clases en el uml que creare en el codigo para el siguiente avance
+# UML
+
+
+# Correcciones 
+1- Se corrigio el Readme, se agrego mas contenido
+2- Se corrigio el UML, se movio la direccion del Rombo
+3- Se corrigio la implementacion de archivos en el programa. En la parte de creacion de partido en el main
+se en el avance 3 intente usar archivos para poder hacer los tipos de partidos, pero en la revision con becario
+me corrigio y me ayudo a conseguir que el programa funcionara y que quitara los archivos que estaban mal implementados
+pense que solo se podia lograr con archivos que aun asi no me funncionaba pero despues con la ayuda del becario
+se corrigio esto. 
