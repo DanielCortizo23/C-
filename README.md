@@ -3,6 +3,14 @@ Esto es un programa para registrar jugadores, con sus atributos como su posicion
 tambien te pide el entrenador y los partidos que se jugaron. Todo para crear un sistema de registro de todo
 lo mencionado
 
+# ¿Para que sirve?
+Sirve para llevar un registro de partidos de voleibol, metiendo jugadores de ambos equipos,
+entrenadores y nombres
+
+# ¿Para que no sirve?
+No sirve para llevar un listado de jugadores en si, es mas bien registro de partidos
+ya que no puedes seguir agregando jugadores y siempre te pide equipo 2 y el tipo de partido que se jugpo
+
 # Objetivo
 Este es un programa que academias o escuelas de voleibol podrian utilizar para organizarse 
 de mejor manera en el deporte. Para esto estamos tomando en cuenta las siguientes clases
