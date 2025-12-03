@@ -55,3 +55,5 @@ se en el avance 3 intente usar archivos para poder hacer los tipos de partidos, 
 me corrigio y me ayudo a conseguir que el programa funcionara y que quitara los archivos que estaban mal implementados
 pense que solo se podia lograr con archivos que aun asi no me funncionaba pero despues con la ayuda del becario
 se corrigio esto. 
+
+4: - Esto no es correcion pero el becario me dijo que agregara getline en la parte de motivo en la linea
