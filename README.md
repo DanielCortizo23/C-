@@ -8,26 +8,27 @@ Este es un programa que academias o escuelas de voleibol podrian utilizar para o
 de mejor manera en el deporte. Para esto estamos tomando en cuenta las siguientes clases
 y su relacion entre ellas
 
-1: Jugador,
+1: Jugador
 
-2: Entrenador,
+2: Entrenador
 
-3: Partido,
+3: Partido
 
-4: Equipo: esta lo que quiero que haga es que le ponga un nombre a el equipo de los jugadores creados (estas las agrego despues),
+4: Equipo: esta lo que quiero que haga es que le ponga un nombre a el equipo de los jugadores creados
 
-5: Amistoso: esta va a determinar el motivo del amistoso, ejemplo para entrenamiento o partido de caridad (estas las agrego despues),
+5: Amistoso: esta va a determinar el motivo del amistoso, ejemplo para entrenamiento o partido de caridad
 
-6: Competitivo: dice donde se va a jugar el torneo y el premio que este va a tener  (estas las agrego despues),
+6: Competitivo: dice donde se va a jugar el torneo y el premio que este va a tener
 
 # Acciones del usuario por ahorita
 La persona que use este programa va a poder obtener y cambiar la informacion de
 objetos como el equipo, jugadores o los partidos. Algunas de las acciones que 
 podria llevar a cabo son: 
-Mostrar info de jugadores
-Mostrar info del entrenador
-Registar partidos, con puntos de los equipos
-Simular entrenamientos o mejoras 
+
+Mostrar info de jugadores, 
+Mostrar info del entrenador, 
+Registar partidos, con puntos de los equipos, 
+Simular entrenamientos o mejoras.
 
 # Instrucciones:
 El programa corre en terminal, esta echo con c++
@@ -42,7 +43,7 @@ El programa corre en terminal, esta echo con c++
 5: - Cerrar programa
 
 # UML
-
+Solo es nececario abrir el archivo UML (3).png para ver el UML
 
 # Correcciones 
 1: - Se corrigio el Readme, se agrego mas contenido
