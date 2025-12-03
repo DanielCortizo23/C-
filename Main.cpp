@@ -57,7 +57,7 @@ int main() {
 
     // Registro de jugadores del equipo 1
     int n1;
-    cout << "Cuantos jugadores tiene el equipo 1? ";
+    cout << "Cuantos jugadores tiene el equipo 1?(use numeros): ";
     cin >> n1;
 
     // Ciclo para agregar cada jugador
@@ -96,7 +96,7 @@ int main() {
 
     // Registro de jugadores del equipo 2
     int n2;
-    cout << "Cuantos jugadores tiene el equipo 2? ";
+    cout << "Cuantos jugadores tiene el equipo 2?(use numeros): ";
     cin >> n2;
 
     // Ciclo para agregar cada jugador del equipo 2
@@ -176,6 +176,7 @@ int main() {
 // Aqui termina el codigo    
     return 0;
 }
+
 
 
 
