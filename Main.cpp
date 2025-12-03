@@ -49,7 +49,7 @@ int main() {
     cout << "Nombre del entrenador del equipo 1: ";
     cin >> nom_entrenador;
     
-    cout << "Experiencia (years): ";
+    cout << "Experiencia de years (porfavor solo use numeros): ";
     cin >> exp1;
 
     // Asignación de entrenador al equipo 1
@@ -68,7 +68,7 @@ int main() {
         cout << "\nJugador " << i + 1 << endl;
         cout << "Nombre: "; cin >> n;
         cout << "Posicion: "; cin >> p;
-        cout << "Numero: "; cin >> num;
+        cout << "Numero (porfavor solo use numeros): "; cin >> num;
 
         // Agrega jugador al equipo
         equipo1.agregarJugador(Jugador(n, p, num));
@@ -88,7 +88,7 @@ int main() {
     cout << "Nombre del entrenador del equipo 2: ";
     cin >> nom_entrenador2;
     
-    cout << "Experiencia (years): ";
+    cout << "Experiencia de years (porfavor solo use numeros): ";
     cin >> exp2;
 
     // Asignación de entrenador al equipo 2
@@ -107,7 +107,7 @@ int main() {
         cout << "\nJugador " << i + 1 << endl;
         cout << "Nombre: "; cin >> n;
         cout << "Posicion: "; cin >> p;
-        cout << "Numero: "; cin >> num;
+        cout << "Numero (porfavor solo use numeros): "; cin >> num;
 
         equipo2.agregarJugador(Jugador(n, p, num));
     }
@@ -160,10 +160,10 @@ int main() {
 
         // Captura del marcador final
         int a, b;
-        cout << "\nPuntos finales del equipo 1: ";
+        cout << "\nPuntos finales del equipo 1 (porfavor solo use numeros): ";
         cin >> a;
         
-        cout << "Puntos finales del equipo 2: ";
+        cout << "Puntos finales del equipo 2 (porfavor solo use numeros): ";
         cin >> b;
 
         // Se guarda el marcador y se muestra
@@ -174,6 +174,7 @@ int main() {
 // Aqui termina el codigo    
     return 0;
 }
+
 
 
 
