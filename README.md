@@ -56,4 +56,5 @@ me corrigio y me ayudo a conseguir que el programa funcionara y que quitara los 
 pense que solo se podia lograr con archivos que aun asi no me funncionaba pero despues con la ayuda del becario
 se corrigio esto. 
 
-4: - Esto no es correcion pero el becario me dijo que agregara getline en la parte de motivo en la linea
+4: - Esto no es correcion pero el becario me dijo que agregara getline en la parte de motivo en la linea 126, 127
+usea get.ignore tambien 
