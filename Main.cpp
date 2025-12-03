@@ -121,10 +121,9 @@ int main() {
     if (op == 1) {
 
         // Partido amistoso
-        cin.ignore(); // permitir getline
         string motivo;
         cout << "Motivo del partido: ";
-        cin >> motivo;
+        cin.ignore();
         getline(cin, motivo);
 
         Amistoso partido(equipo1, equipo2, motivo);
@@ -176,6 +175,7 @@ int main() {
 // Aqui termina el codigo    
     return 0;
 }
+
 
 
 
