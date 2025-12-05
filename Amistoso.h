@@ -20,7 +20,7 @@
 using namespace std;
 
 class Amistoso : public Partido {
-private
+private:
 
     // Motivo del partido amistoso
     string motivo;
@@ -57,6 +57,7 @@ public:
 };
 
 #endif
+
 
 
 
